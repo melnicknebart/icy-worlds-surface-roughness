@@ -1,5 +1,5 @@
 # icy-worlds-surface-roughness
-Reproducible Python/ISIS workflow for scale-dependent surface roughness analysis of Europa, Ganymede, and Enceladus.
+Reproducible Python/ISIS workflow for scale-dependent surface roughness analysis of Europa, Ganymede, and Enceladus and other icy bodies.
 # Europa, Enceladus, and Ganymede Roughness Workflow
 
 This repository contains the workflow for:
