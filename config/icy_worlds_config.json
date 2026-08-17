@@ -1,1 +1,26 @@
-
+{
+  "schema_version": 1,
+  "frozen_workflow_module": "run_frozen_roi_analysis",
+  "datasets": {
+    "europa": {
+      "body_name": "Europa",
+      "catalog_path": "catalogs/europa/europa_roi_catalog.csv",
+      "results_root": "results/europa"
+    },
+    "ganymede": {
+      "body_name": "Ganymede",
+      "catalog_path": "catalogs/ganymede/ganymede_roi_catalog.csv",
+      "results_root": "results/ganymede"
+    },
+    "enceladus": {
+      "body_name": "Enceladus",
+      "catalog_path": "catalogs/enceladus/enceladus_roi_catalog.csv",
+      "results_root": "results/enceladus"
+    },
+    "tethys": {
+      "body_name": "Tethys",
+      "catalog_path": "catalogs/tethys/tethys_roi_catalog.csv",
+      "results_root": "results/tethys"
+    }
+  }
+}
