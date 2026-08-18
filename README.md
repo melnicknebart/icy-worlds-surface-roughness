@@ -9,6 +9,19 @@ This repository contains the workflow for:
 The workflow selects regions of interest from icy-world digital terrain models, evaluates ROI quality, computes RMS-deviation roughness curves, fits Hurst exponents, detects candidate breakpoints, saves PSD diagnostics, and generates summary tables and plots.
 
 ---
+## Setting up
+
+Pull this code from GitHub and cd into the directory wherever you placed it. 
+
+This project uses an ISIS conda env, a binding to the ISIS software by the USGS, so make sure to have that installed. Included in this dir our conda env is stored in the form of a .yml file; however, it's unclear how it would integrate with a previously installed ISIS env, so some caution is warranted. 
+
+`conda env create -f environment.yml`
+
+The next step is to pip install the project with 
+
+` pip install -e. `
+
+The project should be set up now!
 
 ## Workflow overview
 
